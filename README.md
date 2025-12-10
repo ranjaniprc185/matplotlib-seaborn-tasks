@@ -23,6 +23,8 @@ task1_gdp_interpolation.py
 Dataset: datasets/wdi.csv
 Output: outputs/task1_output.png
 
+
+
 Task 2: GDP vs Life Expectancy Scatter Plot
 
 Using gdp_life_pop.csv:
@@ -43,6 +45,8 @@ task2_scatter_plot.py
 Dataset: datasets/gdp_life_pop.csv
 Output: outputs/task2_output.png
 
+
+
 Task 3: Efficient Tipping Day
 
 Using tips.csv:
@@ -62,6 +66,8 @@ task3_tip_behavior.py
 Dataset: datasets/tips.csv
 Output: outputs/task3_output.png
 
+
+
 Task 4: Penguin Body Mass Heatmap
 
 Using Seaborn’s penguins dataset:
@@ -80,6 +86,8 @@ Files:
 task4_penguin_heatmap.py
 Dataset: Loaded from Seaborn (sns.load_dataset("penguins"))
 Output: outputs/task4_output.png
+
+
 
 Task 5: Global Video Game Sales by Platform
 
