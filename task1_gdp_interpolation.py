@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-w=pd.read_csv("C:\\Users\\ranja\\New folder (4)\\wdi.csv")
+w=pd.read_csv("datasets/wdi.csv")
 print(w.head())
 country="India"
 gdp=w[w['Country Name']==country].set_index("Year")["GDP"]
