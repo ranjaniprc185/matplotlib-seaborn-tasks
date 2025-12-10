@@ -2,7 +2,7 @@
 This repository contains data visualization projects using Python libraries:
 Matplotlib and Seaborn.
 
-Task 1: 
+#Task 1: 
 Using the World Bank’s World Development Indicators dataset (wdi.csv):
 
 1. Extract the annual GDP values for a specific country (e.g., India).
