@@ -1,58 +1,36 @@
-    brand_name  ... resolution_width
-0        apple  ...              828
-1        apple  ...              828
-2        apple  ...             1242
-3        apple  ...             1170
-4        apple  ...             1170
-..         ...  ...              ...
-975     xiaomi  ...             1080
-976     xiaomi  ...             1080
-977     xiaomi  ...             1080
-978        zte  ...             1080
-979        zte  ...             1116
+ Country Name Country Code     Indicator Name  Indicator Code  Year     GDP
+0    Australia          COU  GDP (current US$)  NY.GDP.MKTP.CD  1960  108.48
+1    Singapore          COU  GDP (current US$)  NY.GDP.MKTP.CD  1961     NaN
+2       Norway          COU  GDP (current US$)  NY.GDP.MKTP.CD  1962  158.54
+3     Thailand          COU  GDP (current US$)  NY.GDP.MKTP.CD  1963     NaN
+4      England          COU  GDP (current US$)  NY.GDP.MKTP.CD  1964  478.13
 
-[980 rows x 22 columns]
-    brand_name  ... ram_capacity
-0        apple  ...            4
-1        apple  ...            4
-2        apple  ...            4
-3        apple  ...            4
-4        apple  ...            4
-..         ...  ...          ...
-975     xiaomi  ...            4
-976     xiaomi  ...            4
-977     xiaomi  ...            6
-978        zte  ...            6
-979        zte  ...            8
 
-[980 rows x 5 columns]
-    brand_name                    model   price  avg_rating  ram_capacity
-0        apple          Apple iPhone 11   38999         7.3             4
-1        apple  Apple iPhone 11 (128GB)   46999         7.5             4
-2        apple  Apple iPhone 11 Pro Max  109900         7.7             4
-3        apple          Apple iPhone 12   51999         7.4             4
-4        apple  Apple iPhone 12 (128GB)   55999         7.5             4
-..         ...                      ...     ...         ...           ...
-775       vivo                Vivo V25e   19990         8.4             8
-776       vivo             Vivo V26 Pro   42990         8.7            12
-777       vivo                 Vivo V27   27990         8.3             8
-778       vivo             Vivo V27 Pro   43999         8.7            12
-779       vivo                 Vivo V28   28990         8.4             8
+ Year
+1984        NaN
+1988    1919.06
+2016    3947.88
+1980    1116.27
+1985        NaN
+         ...   
+1969     397.50
+1981        NaN
+1984     902.65
+2012    2356.41
+1996    2315.79
+Name: GDP, Length: 590, dtype: float64
 
-[780 rows x 5 columns]
-780
-    brand_name                    model   price  avg_rating  ram_capacity
-0        apple          Apple iPhone 11   38999         7.3             4
-1        apple  Apple iPhone 11 (128GB)   46999         7.5             4
-2        apple  Apple iPhone 11 Pro Max  109900         7.7             4
-3        apple          Apple iPhone 12   51999         7.4             4
-4        apple  Apple iPhone 12 (128GB)   55999         7.5             4
-..         ...                      ...     ...         ...           ...
-775       vivo                Vivo V25e   19990         8.4             8
-776       vivo             Vivo V26 Pro   42990         8.7            12
-777       vivo                 Vivo V27   27990         8.3             8
-778       vivo             Vivo V27 Pro   43999         8.7            12
-779       vivo                 Vivo V28   28990         8.4             8
 
-[780 rows x 5 columns]
-780
+ Year
+1984            NaN
+1988            NaN
+2016            NaN
+1980            NaN
+1985            NaN
+           ...     
+1969    1831.852222
+1981    1952.836667
+1984    2073.821111
+2012    2194.805556
+1996    2315.790000
+Name: GDP, Length: 590, dtype: float64
